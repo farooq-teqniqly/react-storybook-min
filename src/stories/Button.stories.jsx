@@ -1,10 +1,10 @@
 import React from "react";
-
+import { rootFolder } from "../folders";
 import { Button } from "./Button";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const defaultButton = {
-  title: "Min React App/Button",
+  title: `${rootFolder}/Button`,
   component: Button,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
